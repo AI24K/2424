@@ -3,20 +3,18 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import UserInfo from '@/features/User/UserInfo';
+import UserInfo from './UserInfo';
 
 const UserLoginOrSignup = memo<{ onClick: () => void }>(({ onClick }) => {
   const { t } = useTranslation('auth');
 
   return (
-    <>
+    <Flexbox gap={16} paddingBlock={12} paddingInline={16} width={'100%'}>
       <UserInfo />
-      <Flexbox paddingBlock={'0 12px'} paddingInline={16} width={'100%'}>
-        <Button block onClick={onClick} type={'primary'}>
-          {t('loginOrSignup')}
-        </Button>
-      </Flexbox>
-    </>
+      <Button block onClick={onClick} type={'primary'}>
+        {t('loginOrSignup')}
+      </Button>
+    </Flexbox>
   );
 });
 
