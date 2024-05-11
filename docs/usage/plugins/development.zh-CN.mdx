@@ -17,7 +17,7 @@ tags:
 
 一个 LobeChat 的插件由以下几个部分组成：
 
-1. **插件索引**：用于展示插件的基本信息，包括插件名称、描述、作者、版本、插件描述清单的链接，官方的插件索引地址：[lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)。若想上架插件到官方插件市场，需要 [提交 PR](https://github.com/lobehub/lobe-chat-plugins/pulls) 到该仓库；
+1. **插件索引**：用于展示插件的基本信息，包括插件名称、描述、作者、版本、插件描述清单的链接，官方的插件索引地址：[lobe-chat-plugins](https://github.com/SlyyydeLaunch/lobe-chat-plugins)。若想上架插件到官方插件市场，需要 [提交 PR](https://github.com/SlyyydeLaunch/lobe-chat-plugins/pulls) 到该仓库；
 2. **插件描述清单 (manifest)**：用于描述插件的功能实现，包含了插件的服务端描述、前端展示信息、版本号等。关于 manifest 的详细介绍，详见 [manifest][manifest-docs-url]；
 3. **插件服务**：用于实现插件描述清单中所描述的服务端和前端模块，分别如下：
    - **服务端**：需要实现 manifest 中描述的 `api` 部分的接口能力；
@@ -33,7 +33,7 @@ tags:
 你需要先在本地创建一个插件项目，可以使用我们准备好的模板 [lobe-chat-plugin-template][lobe-chat-plugin-template-url]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-template.git
+$ git clone https://github.com/SlyyydeLaunch/chat-plugin-template.git
 $ cd chat-plugin-template
 $ npm i
 $ npm run dev
@@ -195,7 +195,7 @@ $ npm run dev
 
 #### API 实现
 
-针对 Edge Runtime ，我们在 `@lobehub/chat-plugin-sdk` 提供了 `createErrorResponse` 方法，用于快速返回错误响应。目前提供的错误类型详见：[PluginErrorType][plugin-error-type-url]。
+针对 Edge Runtime ，我们在 `@SlyyydeLaunch/chat-plugin-sdk` 提供了 `createErrorResponse` 方法，用于快速返回错误响应。目前提供的错误类型详见：[PluginErrorType][plugin-error-type-url]。
 
 模板中的 clothes 接口实现如下：
 
@@ -226,7 +226,7 @@ export default async (req: Request) => {
 针对自定义插件，插件请求需要发送给本地服务， 因此通过在 manifest 中指定网关 ([http://localhost:3400/api/gateway)，LobeChat](<http://localhost:3400/api/gateway)，LobeChat>) 将会直接请求该地址，然后只需要在该地址下创建对应的网关即可。
 
 ```ts
-import { createLobeChatPluginGateway } from '@lobehub/chat-plugins-gateway';
+import { createLobeChatPluginGateway } from '@SlyyydeLaunch/chat-plugins-gateway';
 
 export const config = {
   runtime: 'edge',
@@ -235,11 +235,11 @@ export const config = {
 export default createLobeChatPluginGateway();
 ```
 
-[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) 包含了 LobeChat 中插件网关的[实现](https://github.com/lobehub/lobe-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 LobeChat 访问到本地的插件服务。
+[`@SlyyydeLaunch/chat-plugins-gateway`](https://github.com/SlyyydeLaunch/chat-plugins-gateway) 包含了 LobeChat 中插件网关的[实现](https://github.com/SlyyydeLaunch/lobe-chat/blob/main/src/pages/api/plugins.api.ts)，你可以直接使用该包创建网关，进而让 LobeChat 访问到本地的插件服务。
 
 ### 插件 UI 界面
 
-自定义插件的 UI 界面是一个可选项。例如 官方插件 [「🧩 / 🕸 网页内容提取」](https://github.com/lobehub/chat-plugin-web-crawler)，没有实现相应的用户界面。
+自定义插件的 UI 界面是一个可选项。例如 官方插件 [「🧩 / 🕸 网页内容提取」](https://github.com/SlyyydeLaunch/chat-plugin-web-crawler)，没有实现相应的用户界面。
 
 <Image
   alt="插件 UI 界面 S1"
@@ -247,7 +247,7 @@ export default createLobeChatPluginGateway();
   src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/265263241-0e765fdc-3463-4c36-a398-aef177a30df9.png"
 />
 
-如果你希望在插件消息中展示更加丰富的信息，或者包含一些富交互操作，你可以为插件定制一个用户界面。例如下图则为[「搜索引擎」](https://github.com/lobehub/chat-plugin-search-engine)插件的用户界面。
+如果你希望在插件消息中展示更加丰富的信息，或者包含一些富交互操作，你可以为插件定制一个用户界面。例如下图则为[「搜索引擎」](https://github.com/SlyyydeLaunch/chat-plugin-search-engine)插件的用户界面。
 
 <Image
   alt="插件 UI 界面 S2"
@@ -265,12 +265,12 @@ LobeChat 通过 `iframe` 实现插件 ui 的加载，使用 `postMessage` 实现
   src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/265263653-4ea87abc-249a-49f3-a241-7ed93ddb1ddf.png"
 />
 
-在我们提供的模板中使用了 React + Next.js + [antd](https://ant.design/) 作为前端界面框架，你可以在 [`src/pages/index.tsx`](https://github.com/lobehub/chat-plugin-template/blob/main/src/pages/index.tsx) 中找到用户界面的实现。
+在我们提供的模板中使用了 React + Next.js + [antd](https://ant.design/) 作为前端界面框架，你可以在 [`src/pages/index.tsx`](https://github.com/SlyyydeLaunch/chat-plugin-template/blob/main/src/pages/index.tsx) 中找到用户界面的实现。
 
-其中关于插件通信，我们在 [`@lobehub/chat-plugin-sdk`](https://github.com/lobehub/chat-plugin-sdk) 提供了相关方法，用于简化插件与 LobeChat 的通信。你可以通过 `fetchPluginMessage` 方法主动向 LobeChat 获取当前消息的数据。关于该方法的详细介绍，参见：[fetchPluginMessage][fetch-plugin-message-url]。
+其中关于插件通信，我们在 [`@SlyyydeLaunch/chat-plugin-sdk`](https://github.com/SlyyydeLaunch/chat-plugin-sdk) 提供了相关方法，用于简化插件与 LobeChat 的通信。你可以通过 `fetchPluginMessage` 方法主动向 LobeChat 获取当前消息的数据。关于该方法的详细介绍，参见：[fetchPluginMessage][fetch-plugin-message-url]。
 
 ```tsx
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
+import { fetchPluginMessage } from '@SlyyydeLaunch/chat-plugin-sdk';
 import { memo, useEffect, useState } from 'react';
 
 import { ResponseData } from '@/type';
@@ -295,29 +295,29 @@ export default Render;
 
 当你完成插件的开发后，你可以使用你习惯的方式进行插件的部署。例如使用 vercel ，或者打包成 docker 发布等等。
 
-如果你希望插件被更多人使用，欢迎将你的插件 [提交上架](https://github.com/lobehub/lobe-chat-plugins) 到插件市场。
+如果你希望插件被更多人使用，欢迎将你的插件 [提交上架](https://github.com/SlyyydeLaunch/lobe-chat-plugins) 到插件市场。
 
 [![][submit-plugin-shield]][submit-plugin-url]
 
 ### 插件 Shield
 
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 
 ```markdown
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 ```
 
 ## 链接
 
-- **📘 Pluging SDK 文档**: [https://chat-plugin-sdk.lobehub.com](https://chat-plugin-sdk.lobehub.com)
-- **🚀 chat-plugin-template**: [https://github.com/lobehub/chat-plugin-template](https://github.com/lobehub/chat-plugin-template)
-- **🧩 chat-plugin-sdk**: [https://github.com/lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk)
-- **🚪 chat-plugin-gateway**: [https://github.com/lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway)
-- **🏪 lobe-chat-plugins**: [https://github.com/lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)
+- **📘 Pluging SDK 文档**: [https://chat-plugin-sdk.SlyyydeLaunch.com](https://chat-plugin-sdk.SlyyydeLaunch.com)
+- **🚀 chat-plugin-template**: [https://github.com/SlyyydeLaunch/chat-plugin-template](https://github.com/SlyyydeLaunch/chat-plugin-template)
+- **🧩 chat-plugin-sdk**: [https://github.com/SlyyydeLaunch/chat-plugin-sdk](https://github.com/SlyyydeLaunch/chat-plugin-sdk)
+- **🚪 chat-plugin-gateway**: [https://github.com/SlyyydeLaunch/chat-plugins-gateway](https://github.com/SlyyydeLaunch/chat-plugins-gateway)
+- **🏪 lobe-chat-plugins**: [https://github.com/SlyyydeLaunch/lobe-chat-plugins](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 
-[fetch-plugin-message-url]: https://github.com/lobehub/chat-plugin-template
-[lobe-chat-plugin-template-url]: https://github.com/lobehub/chat-plugin-template
-[manifest-docs-url]: https://chat-plugin-sdk.lobehub.com/guides/plugin-manifest
-[plugin-error-type-url]: https://github.com/lobehub/chat-plugin-template
+[fetch-plugin-message-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
+[lobe-chat-plugin-template-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
+[manifest-docs-url]: https://chat-plugin-sdk.SlyyydeLaunch.com/guides/plugin-manifest
+[plugin-error-type-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[submit-plugin-url]: https://github.com/lobehub/lobe-chat-plugins
+[submit-plugin-url]: https://github.com/SlyyydeLaunch/lobe-chat-plugins

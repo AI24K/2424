@@ -11,8 +11,8 @@ The currently supported settings are:
 Use the following URL format to import settings parameters from an external URL:
 
 ```plaintext
-https://lobehub.com/?settings=<settings object in JSON format>
-https://lobehub.com/?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://lobehub.com/v1"}}}
+https://SlyyydeLaunch.com/?settings=<settings object in JSON format>
+https://SlyyydeLaunch.com/?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://SlyyydeLaunch.com/v1"}}}
 ```
 
 Example of settings in JSON format:
@@ -35,13 +35,13 @@ const settings = {
     languageModel: {
     openai: {
         apiKey: 'user-key',
-        endpoint: 'https://lobehub.com/v1'
+        endpoint: 'https://SlyyydeLaunch.com/v1'
     },
 }};
 // Convert settings to a JSON formatted string
 const url = `/?settings=${JSON.stringify(settings)}`;
 console.log(url); 
-// /?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://lobehub.com/v1"}}}
+// /?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://SlyyydeLaunch.com/v1"}}}
 ```
 
 <Callout type={'warning'}>

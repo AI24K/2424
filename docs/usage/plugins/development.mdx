@@ -23,7 +23,7 @@ tags:
 
 A LobeChat plugin consists of the following components:
 
-1. **Plugin Index**: Used to display basic information about the plugin, including the plugin name, description, author, version, and a link to the plugin manifest. The official plugin index can be found at [lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins). If you want to publish a plugin to the official plugin marketplace, you need to [submit a PR](https://github.com/lobehub/lobe-chat-plugins/pulls) to this repository.
+1. **Plugin Index**: Used to display basic information about the plugin, including the plugin name, description, author, version, and a link to the plugin manifest. The official plugin index can be found at [lobe-chat-plugins](https://github.com/SlyyydeLaunch/lobe-chat-plugins). If you want to publish a plugin to the official plugin marketplace, you need to [submit a PR](https://github.com/SlyyydeLaunch/lobe-chat-plugins/pulls) to this repository.
 2. **Plugin Manifest**: Used to describe the functionality of the plugin, including the server-side description, frontend display information, and version number. For a detailed introduction to the manifest, see [manifest][manifest-docs-url].
 3. **Plugin Services**: Used to implement the server-side and frontend modules described in the plugin manifest, as follows:
    - **Server-side**: Needs to implement the interface capabilities described in the `api` section of the manifest.
@@ -39,7 +39,7 @@ This section will introduce how to add and use a custom plugin in LobeChat.
 You need to first create a plugin project locally, you can use the template we have prepared [lobe-chat-plugin-template][lobe-chat-plugin-template-url]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-template.git
+$ git clone https://github.com/SlyyydeLaunch/chat-plugin-template.git
 $ cd chat-plugin-template
 $ npm i
 $ npm run dev
@@ -201,7 +201,7 @@ The server-side needs to implement the API interfaces described in the manifest.
 
 #### API Implementation
 
-For the Edge Runtime, we provide the `createErrorResponse` method in `@lobehub/chat-plugin-sdk` to quickly return error responses. Currently, the provided error types are detailed in: [PluginErrorType][plugin-error-type-url].
+For the Edge Runtime, we provide the `createErrorResponse` method in `@SlyyydeLaunch/chat-plugin-sdk` to quickly return error responses. Currently, the provided error types are detailed in: [PluginErrorType][plugin-error-type-url].
 
 The implementation of the clothes interface in the template is as follows:
 
@@ -232,7 +232,7 @@ Since the default plugin gateway for LobeChat is a cloud service `/api/plugins`,
 For custom plugins, plugin requests need to be sent to the local service. Therefore, by specifying the gateway in the manifest ([http://localhost:3400/api/gateway](http://localhost:3400/api/gateway)), LobeChat> will directly request this address, and then only the corresponding gateway needs to be created at that address.
 
 ```ts
-import { createLobeChatPluginGateway } from '@lobehub/chat-plugins-gateway';
+import { createLobeChatPluginGateway } from '@SlyyydeLaunch/chat-plugins-gateway';
 
 export const config = {
   runtime: 'edge',
@@ -241,11 +241,11 @@ export const config = {
 export default createLobeChatPluginGateway();
 ```
 
-[`@lobehub/chat-plugins-gateway`](https://github.com/lobehub/chat-plugins-gateway) contains the implementation of the plugin gateway in LobeChat [here](https://github.com/lobehub/lobe-chat/blob/main/src/pages/api/plugins.api.ts). You can use this package directly to create a gateway, allowing LobeChat to access the local plugin service.
+[`@SlyyydeLaunch/chat-plugins-gateway`](https://github.com/SlyyydeLaunch/chat-plugins-gateway) contains the implementation of the plugin gateway in LobeChat [here](https://github.com/SlyyydeLaunch/lobe-chat/blob/main/src/pages/api/plugins.api.ts). You can use this package directly to create a gateway, allowing LobeChat to access the local plugin service.
 
 ### Plugin UI Interface
 
-The custom UI interface for plugins is optional. For example, the official plugin [Web Content Extraction](https://github.com/lobehub/chat-plugin-web-crawler) does not have a corresponding user interface.
+The custom UI interface for plugins is optional. For example, the official plugin [Web Content Extraction](https://github.com/SlyyydeLaunch/chat-plugin-web-crawler) does not have a corresponding user interface.
 
 <Image
   alt="Plugin UI Interface S1"
@@ -253,7 +253,7 @@ The custom UI interface for plugins is optional. For example, the official plugi
   src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/265263241-0e765fdc-3463-4c36-a398-aef177a30df9.png"
 />
 
-If you want to display richer information in plugin messages or include some interactive operations, you can customize a user interface for the plugin. For example, the following image shows the user interface for the [Search Engine](https://github.com/lobehub/chat-plugin-search-engine) plugin.
+If you want to display richer information in plugin messages or include some interactive operations, you can customize a user interface for the plugin. For example, the following image shows the user interface for the [Search Engine](https://github.com/SlyyydeLaunch/chat-plugin-search-engine) plugin.
 
 <Image
   alt="Plugin UI Interface S2"
@@ -271,12 +271,12 @@ LobeChat implements the loading of plugin UI through `iframe` and uses `postMess
   src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/265263653-4ea87abc-249a-49f3-a241-7ed93ddb1ddf.png"
 />
 
-In the template we provide, we use React + Next.js + [antd](https://ant.design/) as the frontend interface framework. You can find the implementation of the user interface in [`src/pages/index.tsx`](https://github.com/lobehub/chat-plugin-template/blob/main/src/pages/index.tsx).
+In the template we provide, we use React + Next.js + [antd](https://ant.design/) as the frontend interface framework. You can find the implementation of the user interface in [`src/pages/index.tsx`](https://github.com/SlyyydeLaunch/chat-plugin-template/blob/main/src/pages/index.tsx).
 
-As for plugin communication, we provide relevant methods in [`@lobehub/chat-plugin-sdk`](https://github.com/lobehub/chat-plugin-sdk) to simplify communication between the plugin and LobeChat. You can actively retrieve the current message data from LobeChat using the `fetchPluginMessage` method. For detailed information about this method, see: [fetchPluginMessage][fetch-plugin-message-url].
+As for plugin communication, we provide relevant methods in [`@SlyyydeLaunch/chat-plugin-sdk`](https://github.com/SlyyydeLaunch/chat-plugin-sdk) to simplify communication between the plugin and LobeChat. You can actively retrieve the current message data from LobeChat using the `fetchPluginMessage` method. For detailed information about this method, see: [fetchPluginMessage][fetch-plugin-message-url].
 
 ```tsx
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
+import { fetchPluginMessage } from '@SlyyydeLaunch/chat-plugin-sdk';
 import { memo, useEffect, useState } from 'react';
 
 import { ResponseData } from '@/type';
@@ -301,29 +301,29 @@ export default Render;
 
 Once you have finished developing the plugin, you can deploy it using your preferred method, such as using Vercel or packaging it as a Docker container for release, and so on.
 
-If you want more people to use your plugin, feel free to [submit it for listing](https://github.com/lobehub/lobe-chat-plugins) on the plugin marketplace.
+If you want more people to use your plugin, feel free to [submit it for listing](https://github.com/SlyyydeLaunch/lobe-chat-plugins) on the plugin marketplace.
 
 [![][submit-plugin-shield]][submit-plugin-url]
 
 ### Plugin Shield
 
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 
 ```md
-[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/lobehub/lobe-chat-plugins)
+[![lobe-chat-plugin](https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square)](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 ```
 
 ## Links
 
-- **📘 Pluging SDK Documentation**: [https://chat-plugin-sdk.lobehub.com](https://chat-plugin-sdk.lobehub.com)
-- **🚀 chat-plugin-template**: [https://github.com/lobehub/chat-plugin-template](https://github.com/lobehub/chat-plugin-template)
-- **🧩 chat-plugin-sdk**: [https://github.com/lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk)
-- **🚪 chat-plugin-gateway**: [https://github.com/lobehub/chat-plugins-gateway](https://github.com/lobehub/chat-plugins-gateway)
-- **🏪 lobe-chat-plugins**: [https://github.com/lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins)
+- **📘 Pluging SDK Documentation**: [https://chat-plugin-sdk.SlyyydeLaunch.com](https://chat-plugin-sdk.SlyyydeLaunch.com)
+- **🚀 chat-plugin-template**: [https://github.com/SlyyydeLaunch/chat-plugin-template](https://github.com/SlyyydeLaunch/chat-plugin-template)
+- **🧩 chat-plugin-sdk**: [https://github.com/SlyyydeLaunch/chat-plugin-sdk](https://github.com/SlyyydeLaunch/chat-plugin-sdk)
+- **🚪 chat-plugin-gateway**: [https://github.com/SlyyydeLaunch/chat-plugins-gateway](https://github.com/SlyyydeLaunch/chat-plugins-gateway)
+- **🏪 lobe-chat-plugins**: [https://github.com/SlyyydeLaunch/lobe-chat-plugins](https://github.com/SlyyydeLaunch/lobe-chat-plugins)
 
-[fetch-plugin-message-url]: https://github.com/lobehub/chat-plugin-template
-[lobe-chat-plugin-template-url]: https://github.com/lobehub/chat-plugin-template
-[manifest-docs-url]: https://chat-plugin-sdk.lobehub.com/guides/plugin-manifest
-[plugin-error-type-url]: https://github.com/lobehub/chat-plugin-template
+[fetch-plugin-message-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
+[lobe-chat-plugin-template-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
+[manifest-docs-url]: https://chat-plugin-sdk.SlyyydeLaunch.com/guides/plugin-manifest
+[plugin-error-type-url]: https://github.com/SlyyydeLaunch/chat-plugin-template
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[submit-plugin-url]: https://github.com/lobehub/lobe-chat-plugins
+[submit-plugin-url]: https://github.com/SlyyydeLaunch/lobe-chat-plugins

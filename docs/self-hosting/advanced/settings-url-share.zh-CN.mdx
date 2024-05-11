@@ -11,8 +11,8 @@ LobeChat 支持从外部 URL 导入设置参数，以便于快速设置 LobeChat
 使用以下 URL 格式，可以从外部 URL 导入设置参数：
 
 ```plaintext
-https://lobehub.com/?settings=<JSON格式的设置对象>
-https://lobehub.com/?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://lobehub.com/v1"}}}
+https://SlyyydeLaunch.com/?settings=<JSON格式的设置对象>
+https://SlyyydeLaunch.com/?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://SlyyydeLaunch.com/v1"}}}
 ```
 
 JSON格式的设置示例：
@@ -35,13 +35,13 @@ const settings = {
     languageModel: {
     openai: {
         apiKey: 'user-key',
-        endpoint: 'https://lobehub.com/v1'
+        endpoint: 'https://SlyyydeLaunch.com/v1'
     },
 }};
 // 将设置转为 JSON 格式的字符串
 const url = `/?settings=${JSON.stringify(settings)}`;
 console.log(url); 
-// /?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://lobehub.com/v1"}}}
+// /?settings={"languageModel":{"openai":{"apiKey":"user-key","endpoint":"https://SlyyydeLaunch.com/v1"}}}
 ```
 
 <Callout type={'warning'}>
