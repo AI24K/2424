@@ -21,8 +21,8 @@
   "emptyAgent": "No assistant available",
   "historyRange": "History Range",
   "inbox": {
-    "desc": "Activate the brain cluster and spark creative thinking. Your virtual agent is here to communicate with you about everything.",
-    "title": "Just Chat"
+    "desc": "",
+    "title": " Welcome to the Slyyyde Innovators' Launchpad! "
   },
   "input": {
     "addAi": "Add an AI message",
