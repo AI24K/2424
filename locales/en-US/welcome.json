@@ -5,45 +5,44 @@
     "start": "Start Now"
   },
   "guide": {
+    "header": "Innovate with Slyyyde",
+    "slogan": {
+      "title": "Unlock the superpower of your imagination",
+      "desc1": "Pioneering the new age of innovation and impact. Built for you, the Slyyyde Innovator.",
+      "desc2": "Create your first innovation catalyst and let's ignite change~"
+    },
+    "pickAgent": "Or choose from the following innovation catalysts",
+    "skip": "Start Innovating Now",
     "agents": {
-      "replaceBtn": "Replace Batch",
-      "title": "New Assistant Recommendations:"
-    },
-    "defaultMessage": "I am your personal intelligent assistant LobeChat, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
-    "qa": {
-      "q01": "What is LobeHub?",
-      "q02": "What is LobeChat?",
-      "q03": "Does LobeChat have community support?",
-      "q04": "What functions does LobeChat support?",
-      "q05": "How to deploy and use LobeChat?",
-      "q06": "What is the pricing of LobeChat?",
-      "q07": "Is LobeChat free?",
-      "q08": "Is there a cloud service version?",
-      "q09": "Does LobeChat support local language models?",
-      "q10": "Does LobeChat support image recognition and generation?",
-      "q11": "Does LobeChat support speech synthesis and speech recognition?",
-      "q12": "Does LobeChat support a plugin system?",
-      "q13": "Is there a marketplace to obtain GPTs?",
-      "q14": "Does LobeChat support multiple AI service providers?",
-      "q15": "What should I do if I encounter problems while using it?"
-    },
-    "questions": {
-      "moreBtn": "Learn More",
-      "title": "Frequently Asked Questions:"
+      "title": "Slyyyde Innovation Catalysts:",
+      "replaceBtn": "Explore New Innovations"
     },
     "welcome": {
-      "afternoon": "Good Afternoon",
-      "morning": "Good Morning",
-      "night": "Good Evening",
-      "noon": "Good Noon"
+      "morning": "Jumpstart Your Morning Innovation",
+      "noon": "Lunchtime Eureka Moments",
+      "afternoon": "Innovate Your Afternoon",
+      "night": "Inspiring Evening Breakthroughs"
+    },
+    "questions": {
+      "title": "Frequently Asked Innovation Questions:",
+      "moreBtn": "Discover More"
+    },
+    "qa": {
+      "q01": "What is the Slyyyde Innovators' Launchpad?",
+      "q02": "How can Slyyyde's AI assistants help me innovate?",
+      "q03": "Does Slyyyde have a community of innovators?",
+      "q04": "What innovative capabilities does Slyyyde offer?",
+      "q05": "How can I integrate Slyyyde into my innovation workflow?",
+      "q06": "What are the pricing options for Slyyyde's services?",
+      "q07": "Does Slyyyde offer a free plan for innovators?",
+      "q08": "Can I access Slyyyde's AI assistants through the cloud?",
+      "q09": "Does Slyyyde support custom-trained AI models?",
+      "q10": "Can Slyyyde's AI generate and analyze visual content?",
+      "q11": "Does Slyyyde offer voice-based interaction with AI?",
+      "q12": "Can I extend Slyyyde's capabilities with plugins?",
+      "q13": "Is there a marketplace for pre-trained Slyyyde AI assistants?",
+      "q14": "Can Slyyyde integrate with other AI service providers?",
+      "q15": "How can I get support if I face any challenges with Slyyyde?"
     }
-  },
-  "header": "Welcome",
-  "pickAgent": "Or choose from the following agent templates",
-  "skip": "Skip Creation",
-  "slogan": {
-    "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
-    "desc2": "Create your first agent and let's get started~",
-    "title": "Unlock the superpower of your brain"
   }
 }
