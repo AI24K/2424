@@ -3,34 +3,34 @@
     "title": "Model"
   },
   "agentDefaultMessage": "Hello, I'm **{{name}}**. You can start chatting with me right away, or go to [Agent Settings](/chat/settings#session={{id}}) to complete my information.",
-  "agentDefaultMessageWithSystemRole": "Hello, I'm **{{name}}**, {{systemRole}}. Let's start chatting!",
+  "agentDefaultMessageWithSystemRole": "Hello, I'm **{{name}}**, {{systemRole}}. Let's start innovating together!",
   "backToBottom": "Back to bottom",
-  "clearCurrentMessages": "Clear current session messages",
-  "confirmClearCurrentMessages": "You are about to clear the current session messages. Once cleared, they cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionItemAlert": "You are about to delete this agent. Once deleted, it cannot be retrieved. Please confirm your action.",
-  "confirmRemoveSessionSuccess": "Agent removed successfully",
-  "defaultAgent": "Default Agent",
+  "clearCurrentMessages": "Clear current innovation session",
+  "confirmClearCurrentMessages": "You are about to clear the current innovation session. Once cleared, the ideas and discussions cannot be retrieved. Please confirm your action.",
+  "confirmRemoveSessionItemAlert": "You are about to delete this innovation catalyst. Once deleted, it cannot be retrieved. Please confirm your action.",
+  "confirmRemoveSessionSuccess": "Innovation catalyst removed successfully",
+  "defaultAgent": "Default Innovation Catalyst",
   "defaultList": "Default List",
-  "defaultSession": "Default Agent",
+  "defaultSession": "Default Innovation Catalyst",
   "duplicateSession": {
-    "loading": "Copying...",
-    "success": "Copy successful",
-    "title": "{{title}} Copy"
+    "loading": "Duplicating...",
+    "success": "Duplication successful",
+    "title": "{{title}} Duplicate"
   },
-  "duplicateTitle": "{{title}} Copy",
-  "emptyAgent": "No assistant available",
+  "duplicateTitle": "{{title}} Duplicate",
+  "emptyAgent": "No innovation catalyst available",
   "historyRange": "History Range",
   "inbox": {
     "desc": "",
     "title": " Welcome to the Slyyyde Innovators' Launchpad! "
   },
   "input": {
-    "addAi": "Add an AI message",
-    "addUser": "Add a user message",
+    "addAi": "Add an AI insight",
+    "addUser": "Add an innovator's thought",
     "more": "more",
-    "send": "Send",
-    "sendWithCmdEnter": "Press {{meta}} + Enter to send",
-    "sendWithEnter": "Press Enter to send",
+    "send": "Share",
+    "sendWithCmdEnter": "Press {{meta}} + Enter to share",
+    "sendWithEnter": "Press Enter to share",
     "stop": "Stop",
     "warp": "New Line"
   },
@@ -38,29 +38,29 @@
     "delAndRegenerate": "Delete and Regenerate",
     "regenerate": "Regenerate"
   },
-  "newAgent": "New Agent",
+  "newAgent": "New Innovation Catalyst",
   "noDescription": "No description available",
   "pin": "Pin",
   "pinOff": "Unpin",
   "regenerate": "Regenerate",
   "roleAndArchive": "Role and Archive",
-  "searchAgentPlaceholder": "Search agents and conversations...",
-  "sendPlaceholder": "Type your message here...",
+  "searchAgentPlaceholder": "Search innovation catalysts and conversations...",
+  "sendPlaceholder": "Share your innovative ideas here...",
   "sessionGroup": {
     "config": "Group Management",
-    "confirmRemoveGroupAlert": "This group is about to be deleted. After deletion, the agents in this group will be moved to the default list. Please confirm your operation.",
-    "createAgentSuccess": "Agent created successfully",
-    "createGroup": "Add New Group",
+    "confirmRemoveGroupAlert": "This innovation group is about to be deleted. After deletion, the catalysts in this group will be moved to the default list. Please confirm your operation.",
+    "createAgentSuccess": "Innovation catalyst created successfully",
+    "createGroup": "Add New Innovation Group",
     "createSuccess": "Created successfully",
-    "creatingAgent": "Creating agent...",
-    "inputPlaceholder": "Please enter group name...",
-    "moveGroup": "Move to Group",
-    "newGroup": "New Group",
-    "rename": "Rename Group",
+    "creatingAgent": "Creating innovation catalyst...",
+    "inputPlaceholder": "Please enter innovation group name...",
+    "moveGroup": "Move to Innovation Group",
+    "newGroup": "New Innovation Group",
+    "rename": "Rename Innovation Group",
     "renameSuccess": "Renamed successfully",
     "sortSuccess": "Reorder successful",
-    "sorting": "Group sorting updating...",
-    "tooLong": "Group name length should be between 1-20"
+    "sorting": "Innovation group sorting updating...",
+    "tooLong": "Innovation group name length should be between 1-20"
   },
   "shareModal": {
     "download": "Download Screenshot",
@@ -71,7 +71,7 @@
     "withBackground": "Include Background Image",
     "withFooter": "Include Footer",
     "withPluginInfo": "Include Plugin Information",
-    "withSystemRole": "Include Agent Role Setting"
+    "withSystemRole": "Include Innovation Catalyst Role Setting"
   },
   "stt": {
     "action": "Voice Input",
@@ -80,7 +80,7 @@
   },
   "temp": "Temporary",
   "tokenDetails": {
-    "chats": "Chat Messages",
+    "chats": "Innovation Messages",
     "rest": "Remaining",
     "systemRole": "Role Settings",
     "tools": "Plugin Settings",
@@ -96,24 +96,24 @@
     "actions": {
       "autoRename": "Auto Rename",
       "duplicate": "Create Copy",
-      "export": "Export Topic"
+      "export": "Export Innovation Topic"
     },
-    "confirmRemoveAll": "You are about to delete all topics. Once deleted, they cannot be recovered. Please proceed with caution.",
-    "confirmRemoveTopic": "You are about to delete this topic. Once deleted, it cannot be recovered. Please proceed with caution.",
-    "confirmRemoveUnstarred": "You are about to delete unstarred topics. Once deleted, they cannot be recovered. Please proceed with caution.",
-    "defaultTitle": "Default Topic",
-    "duplicateLoading": "Topic duplicating...",
-    "duplicateSuccess": "Topic duplicated successfully",
+    "confirmRemoveAll": "You are about to delete all innovation topics. Once deleted, they cannot be recovered. Please proceed with caution.",
+    "confirmRemoveTopic": "You are about to delete this innovation topic. Once deleted, it cannot be recovered. Please proceed with caution.",
+    "confirmRemoveUnstarred": "You are about to delete unstarred innovation topics. Once deleted, they cannot be recovered. Please proceed with caution.",
+    "defaultTitle": "Default Innovation Topic",
+    "duplicateLoading": "Innovation topic duplicating...",
+    "duplicateSuccess": "Innovation topic duplicated successfully",
     "guide": {
-      "desc": "Click the button on the left to save the current session as a historical topic and start a new session.",
-      "title": "Topic List"
+      "desc": "Click the button on the left to save the current innovation session as a historical topic and start a new session.",
+      "title": "Innovation Topic List"
     },
-    "openNewTopic": "Open New Topic",
-    "removeAll": "Remove All Topics",
-    "removeUnstarred": "Remove Unstarred Topics",
-    "saveCurrentMessages": "Save current session as topic",
-    "searchPlaceholder": "Search topics...",
-    "title": "Topic List"
+    "openNewTopic": "Open New Innovation Topic",
+    "removeAll": "Remove All Innovation Topics",
+    "removeUnstarred": "Remove Unstarred Innovation Topics",
+    "saveCurrentMessages": "Save current innovation session as a topic",
+    "searchPlaceholder": "Search innovation topics...",
+    "title": "Innovation Topic List"
   },
   "translate": {
     "action": "Translate",
@@ -123,7 +123,7 @@
     "action": "Text-to-Speech",
     "clear": "Clear Speech"
   },
-  "updateAgent": "Update Agent Information",
+  "updateAgent": "Update Innovation Catalyst Information",
   "upload": {
     "actionFiletip": "Update File",
     "actionTooltip": "Upload Image",
