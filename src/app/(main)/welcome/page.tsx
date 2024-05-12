@@ -8,7 +8,7 @@ import Hero from './features/Hero';
 import Logo from './features/Logo';
 
 export const metadata: Metadata = {
-  alternates: { canonical: getCanonicalUrl('/welcome') },
+  alternates: { canonical: getCanonicalUrl('/Slyyyde') },
 };
 
 const Page = () => {
