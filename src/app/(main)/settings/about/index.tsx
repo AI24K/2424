@@ -25,7 +25,7 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
         <Logo size={mobile ? 100 : 120} />
       </Link>
       <h1 style={{ fontSize: mobile ? 32 : 36, fontWeight: 900, lineHeight: 1, marginBottom: 0 }}>
-        LobeChat
+        Slyyydeboost
       </h1>
       <Link href={RELEASES_URL} target={'_blank'}>
         <Tag>v{CURRENT_VERSION}</Tag>
@@ -35,7 +35,7 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
         {enabledTelemetryChat && <Analytics />}
       </Flexbox>
       <Follow />
-      <div>Empowering your AI dreams by LobeHub</div>
+      <div>Empowering your AI dreams by Slyyydeboost</div>
       <div style={{ fontWeight: 400, opacity: 0.33 }}>{COPYRIGHT}</div>
     </Flexbox>
   );
