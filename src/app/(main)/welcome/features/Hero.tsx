@@ -54,7 +54,7 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        {t('slogan.desc1')}
+        {t('yoooo')}
       </Flexbox>
     </>
   );
