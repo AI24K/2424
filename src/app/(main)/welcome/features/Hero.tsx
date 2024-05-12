@@ -1,5 +1,3 @@
-'use client';
-
 import { createStyles } from 'antd-style';
 import { rgba } from 'polished';
 import { memo } from 'react';
@@ -13,23 +11,21 @@ const useStyles = createStyles(({ css, token }) => {
       font-weight: 400;
       color: ${rgba(token.colorText, 0.8)};
       text-align: center;
-      text-wrap: balance;
+      white-space: normal;
     `,
     title: css`
       margin-bottom: 0;
-
       font-size: min(56px, 7vw);
       font-weight: 800;
       line-height: 1;
       text-align: center;
-      text-wrap: balance;
+      white-space: normal;
     `,
   };
 });
 
 const Hero = memo(() => {
   const { styles } = useStyles();
-
   const { t } = useTranslation('welcome');
 
   return (
@@ -43,8 +39,8 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        <strong style={{ fontSize: 'min(56px, 8vw)' }}>SlyyydeInnovate</strong>
-        <span>{t('slogan.title')}</span>
+        <strong style={{ fontSize: 'min(56px, 8vw)' }}>LobeChat</strong>
+        <span>{t('slogan.title')}</span> <!-- Ensure this key exists in your translation files -->
       </Flexbox>
       <Flexbox
         align={'center'}
@@ -54,7 +50,7 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        {t('LIFE')}
+        {t('slogan.desc1')} <!-- Ensure this key exists in your translation files -->
       </Flexbox>
     </>
   );
