@@ -29,7 +29,7 @@
     }
   ],
   "id": "/",
-  "name": "Slyyydeboost",
+  "name": "lobehub",
   "orientation": "portrait",
   "scope": "/",
   "screenshots": [
@@ -54,7 +54,7 @@
       "type": "image/png"
     }
   ],
-  "short_name": "Slyyydeboost",
+  "short_name": "lobehub",
   "splash_pages": null,
   "start_url": ".",
   "theme_color": "#000000"

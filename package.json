@@ -1,5 +1,5 @@
 {
-  "name": "@slyyydeboost/chat",
+  "name": "@lobehub/chat",
   "version": "0.156.2",
   "description": "slyyyde AI Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
   "keywords": [
@@ -14,16 +14,16 @@
     "tts",
     "stt"
   ],
-  "homepage": "https://github.com/Slyyydeboost/lobe-chat",
+  "homepage": "https://github.com/lobehub/lobe-chat",
   "bugs": {
-    "url": "https://github.com/Slyyydeboost/lobe-chat/issues/new/choose"
+    "url": "https://github.com/lobehub/lobe-chat/issues/new/choose"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Slyyydeboost/lobe-chat.git"
+    "url": "https://github.com/lobehub/lobe-chat.git"
   },
   "license": "MIT",
-  "author": "Slyyyde <i@Slyyydeboost.com>",
+  "author": "Slyyyde <i@lobehub.com>",
   "sideEffects": false,
   "scripts": {
     "build": "next build",
@@ -92,11 +92,11 @@
     "@clerk/themes": "^2.0.0",
     "@google/generative-ai": "^0.10.0",
     "@icons-pack/react-simple-icons": "^9.4.1",
-    "@Slyyydeboost/chat-plugin-sdk": "latest",
-    "@Slyyydeboost/chat-plugins-gateway": "latest",
-    "@Slyyydeboost/icons": "latest",
-    "@Slyyydeboost/tts": "latest",
-    "@Slyyydeboost/ui": "^1.138.17",
+    "@lobehub/chat-plugin-sdk": "latest",
+    "@lobehub/chat-plugins-gateway": "latest",
+    "@lobehub/icons": "latest",
+    "@lobehub/tts": "latest",
+    "@lobehub/ui": "^1.138.17",
     "@next/third-parties": "^14.2.3",
     "@sentry/nextjs": "^7.112.2",
     "@t3-oss/env-nextjs": "^0.10.1",
@@ -177,9 +177,9 @@
     "@commitlint/cli": "^19.3.0",
     "@ducanh2912/next-pwa": "^10.2.6",
     "@edge-runtime/vm": "^3.2.0",
-    "@Slyyydeboost/i18n-cli": "^1.18.1",
-    "@Slyyydeboost/lint": "^1.23.4",
-    "@Slyyydeboost/seo-cli": "^1.4.1",
+    "@lobehub/i18n-cli": "^1.18.1",
+    "@lobehub/lint": "^1.23.4",
+    "@lobehub/seo-cli": "^1.4.1",
     "@next/bundle-analyzer": "^14.2.3",
     "@next/eslint-plugin-next": "^14.2.3",
     "@peculiar/webcrypto": "^1.4.6",

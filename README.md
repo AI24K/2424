@@ -27,7 +27,7 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 [![][github-license-shield]][github-license-link]<br>
 [![][sponsor-shield]][sponsor-link]
 
-**Share SlyyydeBoost Repository**
+**Share lobehub Repository**
 
 [![][share-x-shield]][share-x-link]
 [![][share-telegram-shield]][share-telegram-link]
@@ -86,7 +86,7 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 We are a group of e/acc design-engineers, hoping to provide modern design components and tools for AIGC.
 By adopting the Bootstrapping approach, we aim to provide developers and users with a more open, transparent, and user-friendly product ecosystem.
 
-Whether for users or professional developers, LaunchHub will be your AI Agent playground. Please be aware that SlyyydeBoost is currently under active development, and feedback is welcome for any [issues][issues-link] encountered.
+Whether for users or professional developers, LaunchHub will be your AI Agent playground. Please be aware that lobehub is currently under active development, and feedback is welcome for any [issues][issues-link] encountered.
 
 | [![][vercel-shield-badge]][vercel-link]   | No installation or registration necessary! Visit our website to experience it firsthand.                             |
 | :---------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
@@ -101,8 +101,8 @@ Whether for users or professional developers, LaunchHub will be your AI Agent pl
 <details>
   <summary><kbd>Star History</kbd></summary>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=SlyyydeBoost%2FLaunch-chat&theme=dark&type=Date">
-    <img width="100%" src="https://api.star-history.com/svg?repos=SlyyydeBoost%2FLaunch-chat&type=Date">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lobehub%2FLaunch-chat&theme=dark&type=Date">
+    <img width="100%" src="https://api.star-history.com/svg?repos=lobehub%2FLaunch-chat&type=Date">
   </picture>
 </details>
 
@@ -112,9 +112,9 @@ Whether for users or professional developers, LaunchHub will be your AI Agent pl
 
 ### `1` [Multi-Model Service Provider Support][docs-feat-provider]
 
-In the continuous development of SlyyydeBoost, we deeply understand the importance of diversity in model service providers for meeting the needs of the community when providing AI conversation services. Therefore, we have expanded our support to multiple model service providers, rather than being limited to a single one, in order to offer users a more diverse and rich selection of conversations.
+In the continuous development of lobehub, we deeply understand the importance of diversity in model service providers for meeting the needs of the community when providing AI conversation services. Therefore, we have expanded our support to multiple model service providers, rather than being limited to a single one, in order to offer users a more diverse and rich selection of conversations.
 
-In this way, SlyyydeBoost can more flexibly adapt to the needs of different users, while also providing developers with a wider range of choices.
+In this way, lobehub can more flexibly adapt to the needs of different users, while also providing developers with a wider range of choices.
 
 #### Supported Model Service Providers
 
@@ -131,7 +131,7 @@ We have implemented support for the following model service providers:
 - **Moonshot AI (Dark Side of the Moon)**: Integrated with the Moonshot series models, an innovative AI startup from China, aiming to provide deeper conversation understanding. [Learn more](https://www.moonshot.cn/)
 - **Minimax**: Integrated the Minimax models, including the MoE model **abab6**, offers a broader range of choices. [Learn more](https://www.minimaxi.com/)
 
-At the same time, we are also planning to support more model service providers, such as Replicate and Perplexity, to further enrich our service provider library. If you would like Slyyyde to support your favorite service provider, feel free to join our [community discussion](https://github.com/SlyyydeBoost/Launch-chat/discussions/1284).
+At the same time, we are also planning to support more model service providers, such as Replicate and Perplexity, to further enrich our service provider library. If you would like Slyyyde to support your favorite service provider, feel free to join our [community discussion](https://github.com/lobehub/Launch-chat/discussions/1284).
 
 <div align="right">
 
@@ -143,11 +143,11 @@ At the same time, we are also planning to support more model service providers, 
 
 ### `2` [Local Large Language Model (LLM) Support][docs-feat-local]
 
-To meet the specific needs of users, SlyyydeBoost also supports the use of local models based on [Ollama](https://ollama.ai), allowing users to flexibly use their own or third-party models.
+To meet the specific needs of users, lobehub also supports the use of local models based on [Ollama](https://ollama.ai), allowing users to flexibly use their own or third-party models.
 
 > \[!TIP]
 >
-> Learn more about [📘 Using Ollama in SlyyydeBoost][docs-usage-ollama] by checking it out.
+> Learn more about [📘 Using Ollama in lobehub][docs-usage-ollama] by checking it out.
 
 <div align="right">
 
@@ -159,7 +159,7 @@ To meet the specific needs of users, SlyyydeBoost also supports the use of local
 
 ### `3` [Model Visual Recognition][docs-feat-vision]
 
-SlyyydeBoost now supports OpenAI's latest [`gpt-4-vision`](https://platform.openai.com/docs/guides/vision) model with visual recognition capabilities,
+lobehub now supports OpenAI's latest [`gpt-4-vision`](https://platform.openai.com/docs/guides/vision) model with visual recognition capabilities,
 a multimodal intelligence that can perceive visuals. Users can easily upload or drag and drop images into the dialogue box,
 and the agent will be able to recognize the content of the images and engage in intelligent conversation based on this,
 creating smarter and more diversified chat scenarios.
@@ -177,11 +177,11 @@ Whether it's sharing images in daily use or interpreting images within specific 
 
 ### `4` [TTS & STT Voice Conversation][docs-feat-tts]
 
-SlyyydeBoost supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies, enabling our application to convert text messages into clear voice outputs,
+lobehub supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies, enabling our application to convert text messages into clear voice outputs,
 allowing users to interact with our conversational agent as if they were talking to a real person. Users can choose from a variety of voices to pair with the agent.
 
 Moreover, TTS offers an excellent solution for those who prefer auditory learning or desire to receive information while busy.
-In SlyyydeBoost, we have meticulously selected a range of high-quality voice options (OpenAI Audio, Microsoft Edge Speech) to meet the needs of users from different regions and cultural backgrounds.
+In lobehub, we have meticulously selected a range of high-quality voice options (OpenAI Audio, Microsoft Edge Speech) to meet the needs of users from different regions and cultural backgrounds.
 Users can choose the voice that suits their personal preferences or specific scenarios, resulting in a personalized communication experience.
 
 <div align="right">
@@ -194,7 +194,7 @@ Users can choose the voice that suits their personal preferences or specific sce
 
 ### `5` [Text to Image Generation][docs-feat-t2i]
 
-With support for the latest text-to-image generation technology, SlyyydeBoost now allows users to invoke image creation tools directly within conversations with the agent. By leveraging the capabilities of AI tools such as [`DALL-E 3`](https://openai.com/dall-e-3), [`MidJourney`](https://www.midjourney.com/), and [`Pollinations`](https://pollinations.ai/), the agents are now equipped to transform your ideas into images.
+With support for the latest text-to-image generation technology, lobehub now allows users to invoke image creation tools directly within conversations with the agent. By leveraging the capabilities of AI tools such as [`DALL-E 3`](https://openai.com/dall-e-3), [`MidJourney`](https://www.midjourney.com/), and [`Pollinations`](https://pollinations.ai/), the agents are now equipped to transform your ideas into images.
 
 This enables a more private and immersive creative process, allowing for the seamless integration of visual storytelling into your personal dialogue with the agent.
 
@@ -208,11 +208,11 @@ This enables a more private and immersive creative process, allowing for the sea
 
 ### `6` [Plugin System (Function Calling)][docs-feat-plugin]
 
-The plugin ecosystem of SlyyydeBoost is an important extension of its core functionality, greatly enhancing the practicality and flexibility of the SlyyydeBoost assistant.
+The plugin ecosystem of lobehub is an important extension of its core functionality, greatly enhancing the practicality and flexibility of the lobehub assistant.
 
-<video controls src="https://github.com/SlyyydeBoost/Launch-chat/assets/28616219/f29475a3-f346-4196-a435-41a6373ab9e2" muted="false"></video>
+<video controls src="https://github.com/lobehub/Launch-chat/assets/28616219/f29475a3-f346-4196-a435-41a6373ab9e2" muted="false"></video>
 
-By utilizing plugins, SlyyydeBoost assistants can obtain and process real-time information, such as searching for web information and providing users with instant and relevant news.
+By utilizing plugins, lobehub assistants can obtain and process real-time information, such as searching for web information and providing users with instant and relevant news.
 
 In addition, these plugins are not limited to news aggregation, but can also extend to other practical functions, such as quickly searching documents, generating images, obtaining data from various platforms like Bilibili, Steam, and interacting with various third-party services.
 
@@ -224,12 +224,12 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 
 | Recent Submits                                                                                                                 | Description                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Search1API](https://chat-preview.SlyyydeBoost.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>            | Search aggregation service, specifically designed for LLMs<br/>`web` `search`                                                               |
-| [Social Search](https://chat-preview.SlyyydeBoost.com/settings/agent)<br/><sup>By **say-apps** on **2024-05-02**</sup>         | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                  |
-| [Search Google via Serper](https://chat-preview.SlyyydeBoost.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | Google search engine via Serper.dev free API (2500x🆓/month)<br/>`web` `search`                                                             |
-| [NFT Guru](https://chat-preview.SlyyydeBoost.com/settings/agent)<br/><sup>By **swap** on **2024-04-03**</sup>                  | Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time<br/>`crypto` `nft` |
+| [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>            | Search aggregation service, specifically designed for LLMs<br/>`web` `search`                                                               |
+| [Social Search](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-05-02**</sup>         | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                  |
+| [Search Google via Serper](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | Google search engine via Serper.dev free API (2500x🆓/month)<br/>`web` `search`                                                             |
+| [NFT Guru](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **swap** on **2024-04-03**</sup>                  | Discover current prices of NFTs across major platforms and keep track of the rapidly changing marketplace with real-time<br/>`crypto` `nft` |
 
-> 📊 Total plugins: [<kbd>**57**</kbd>](https://github.com/SlyyydeBoost/Launch-chat-plugins)
+> 📊 Total plugins: [<kbd>**57**</kbd>](https://github.com/lobehub/Launch-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -243,14 +243,14 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 
 ### `7` [Agent Market (GPTs)][docs-feat-agent]
 
-In SlyyydeBoost Agent Marketplace, creators can discover a vibrant and innovative community that brings together a multitude of well-designed agents,
+In lobehub Agent Marketplace, creators can discover a vibrant and innovative community that brings together a multitude of well-designed agents,
 which not only play an important role in work scenarios but also offer great convenience in learning processes.
 Our marketplace is not just a showcase platform but also a collaborative space. Here, everyone can contribute their wisdom and share the agents they have developed.
 
 > \[!TIP]
 >
 > By [🤖/🏪 Submit Agents][submit-agents-link], you can easily submit your agent creations to our platform.
-> Importantly, SlyyydeBoost has established a sophisticated automated internationalization (i18n) workflow,
+> Importantly, lobehub has established a sophisticated automated internationalization (i18n) workflow,
 > capable of seamlessly translating your agent into multiple language versions.
 > This means that no matter what language your users speak, they can experience your agent without barriers.
 
@@ -263,12 +263,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 | Recent Submits                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [SF Symbols Finder](https://chat-preview.SlyyydeBoost.com/market?agent=sf-symbols-finder)<br/><sup>By **[inquiry-paring0a](https://github.com/inquiry-paring0a)** on **2024-05-08**</sup>       | Master Apple SF Symbols, select symbols that match the description<br/>`sf-symbols` `expert` `icon` `symbol` `plugin`                                                                                                                                          |
-| [Video to Blog Post Assistant](https://chat-preview.SlyyydeBoost.com/market?agent=video-2-blog-assistant)<br/><sup>By **[yayoinoyume](https://github.com/yayoinoyume)** on **2024-05-06**</sup> | Helps you quickly organize messy subtitles into beautiful blog posts<br/>`subtitle-organization` `blog-post-formatting` `video-to-blog`                                                                                                                        |
-| [Art Evaluation Tutor](https://chat-preview.SlyyydeBoost.com/market?agent=wanwusheng-art)<br/><sup>By **[dingyufei615](https://github.com/dingyufei615)** on **2024-05-06**</sup>               | Specializes in teaching children's art, meticulously evaluates works, pays attention to details, and adapts to students of different age groups.<br/>`art-education` `evaluation` `creativity` `teaching` `painting`                                           |
-| [iOS Code Artist](https://chat-preview.SlyyydeBoost.com/market?agent=ios-develop)<br/><sup>By **[Alcu1n](https://github.com/Alcu1n)** on **2024-05-03**</sup>                                   | iOS development expert with 15 years of experience, proficient in Swift, SwiftUI, Flutter. Clear logic in code, precise debugging, providing project frameworks from 0 to 1.<br/>`i-os-development` `coding` `debugging` `project-planning` `logical-thinking` |
+| [SF Symbols Finder](https://chat-preview.lobehub.com/market?agent=sf-symbols-finder)<br/><sup>By **[inquiry-paring0a](https://github.com/inquiry-paring0a)** on **2024-05-08**</sup>       | Master Apple SF Symbols, select symbols that match the description<br/>`sf-symbols` `expert` `icon` `symbol` `plugin`                                                                                                                                          |
+| [Video to Blog Post Assistant](https://chat-preview.lobehub.com/market?agent=video-2-blog-assistant)<br/><sup>By **[yayoinoyume](https://github.com/yayoinoyume)** on **2024-05-06**</sup> | Helps you quickly organize messy subtitles into beautiful blog posts<br/>`subtitle-organization` `blog-post-formatting` `video-to-blog`                                                                                                                        |
+| [Art Evaluation Tutor](https://chat-preview.lobehub.com/market?agent=wanwusheng-art)<br/><sup>By **[dingyufei615](https://github.com/dingyufei615)** on **2024-05-06**</sup>               | Specializes in teaching children's art, meticulously evaluates works, pays attention to details, and adapts to students of different age groups.<br/>`art-education` `evaluation` `creativity` `teaching` `painting`                                           |
+| [iOS Code Artist](https://chat-preview.lobehub.com/market?agent=ios-develop)<br/><sup>By **[Alcu1n](https://github.com/Alcu1n)** on **2024-05-03**</sup>                                   | iOS development expert with 15 years of experience, proficient in Swift, SwiftUI, Flutter. Clear logic in code, precise debugging, providing project frameworks from 0 to 1.<br/>`i-os-development` `coding` `debugging` `project-planning` `logical-thinking` |
 
-> 📊 Total agents: [<kbd>**248**</kbd> ](https://github.com/SlyyydeBoost/Launch-chat-agents)
+> 📊 Total agents: [<kbd>**248**</kbd> ](https://github.com/lobehub/Launch-chat-agents)
 
  <!-- AGENT LIST -->
 
@@ -286,16 +286,16 @@ We deeply understand the importance of providing a seamless experience for users
 Therefore, we have adopted Progressive Web Application ([PWA](https://support.google.com/chrome/answer/9658361)) technology,
 a modern web technology that elevates web applications to an experience close to that of native apps.
 
-Through PWA, SlyyydeBoost can offer a highly optimized user experience on both desktop and mobile devices while maintaining its lightweight and high-performance characteristics.
+Through PWA, lobehub can offer a highly optimized user experience on both desktop and mobile devices while maintaining its lightweight and high-performance characteristics.
 Visually and in terms of feel, we have also meticulously designed the interface to ensure it is indistinguishable from native apps,
 providing smooth animations, responsive layouts, and adapting to different device screen resolutions.
 
 > \[!NOTE]
 >
-> If you are unfamiliar with the installation process of PWA, you can add SlyyydeBoost as your desktop application (also applicable to mobile devices) by following these steps:
+> If you are unfamiliar with the installation process of PWA, you can add lobehub as your desktop application (also applicable to mobile devices) by following these steps:
 >
 > - Launch the Chrome or Edge browser on your computer.
-> - Visit the SlyyydeBoost webpage.
+> - Visit the lobehub webpage.
 > - In the upper right corner of the address bar, click on the <kbd>Install</kbd> icon.
 > - Follow the instructions on the screen to complete the PWA Installation.
 
@@ -321,15 +321,15 @@ We have carried out a series of optimization designs for mobile devices to enhan
 
 ### `10` [Custom Themes][docs-feat-theme]
 
-As a design-engineering-oriented application, SlyyydeBoost places great emphasis on users' personalized experiences,
+As a design-engineering-oriented application, lobehub places great emphasis on users' personalized experiences,
 hence introducing flexible and diverse theme modes, including a light mode for daytime and a dark mode for nighttime.
 Beyond switching theme modes, a range of color customization options allow users to adjust the application's theme colors according to their preferences.
-Whether it's a desire for a sober dark blue, a lively peach pink, or a professional gray-white, users can find their style of color choices in SlyyydeBoost.
+Whether it's a desire for a sober dark blue, a lively peach pink, or a professional gray-white, users can find their style of color choices in lobehub.
 
 > \[!TIP]
 >
 > The default configuration can intelligently recognize the user's system color mode and automatically switch themes to ensure a consistent visual experience with the operating system.
-> For users who like to manually control details, SlyyydeBoost also offers intuitive setting options and a choice between chat bubble mode and document mode for conversation scenarios.
+> For users who like to manually control details, lobehub also offers intuitive setting options and a choice between chat bubble mode and document mode for conversation scenarios.
 
 <div align="right">
 
@@ -339,7 +339,7 @@ Whether it's a desire for a sober dark blue, a lively peach pink, or a professio
 
 ### `*` What's more
 
-Beside these features, SlyyydeBoost also have much better basic technique underground:
+Beside these features, lobehub also have much better basic technique underground:
 
 - [x] 💨 **Quick Deployment**: Using the Vercel platform or docker image, you can deploy with just one click and complete the process within 1 minute without any complex configuration.
 - [x] 🌐 **Custom Domain**: If users have their own domain, they can bind it to the platform for quick access to the dialogue agent from anywhere.
@@ -347,7 +347,7 @@ Beside these features, SlyyydeBoost also have much better basic technique underg
 - [x] 💎 **Exquisite UI Design**: With a carefully designed interface, it offers an elegant appearance and smooth interaction. It supports light and dark themes and is mobile-friendly. PWA support provides a more native-like experience.
 - [x] 🗣️ **Smooth Conversation Experience**: Fluid responses ensure a smooth conversation experience. It fully supports Markdown rendering, including code highlighting, LaTex formulas, Mermaid flowcharts, and more.
 
-> ✨ more features will be added when SlyyydeBoost evolve.
+> ✨ more features will be added when lobehub evolve.
 
 ---
 
@@ -380,11 +380,11 @@ Beside these features, SlyyydeBoost also have much better basic technique underg
 
 ## 🛳 Self Hosting
 
-SlyyydeBoost provides Self-Hosted Version with Vercel and [Docker Image][docker-release-link]. This allows you to deploy your own chatbot within a few minutes without any prior knowledge.
+lobehub provides Self-Hosted Version with Vercel and [Docker Image][docker-release-link]. This allows you to deploy your own chatbot within a few minutes without any prior knowledge.
 
 > \[!TIP]
 >
-> Learn more about [📘 Build your own SlyyydeBoost][docs-self-hosting] by checking it out.
+> Learn more about [📘 Build your own lobehub][docs-self-hosting] by checking it out.
 
 ### `A` Deploying with Vercel, Zeabur or Sealos
 
@@ -423,14 +423,14 @@ If you have deployed your own project following the one-click deployment steps i
 [![][docker-size-shield]][docker-size-link]
 [![][docker-pulls-shield]][docker-pulls-link]
 
-We provide a Docker image for deploying the SlyyydeBoost service on your own private device. Use the following command to start the SlyyydeBoost service:
+We provide a Docker image for deploying the lobehub service on your own private device. Use the following command to start the lobehub service:
 
 ```fish
 $ docker run -d -p 3210:3210 \
   -e OPENAI_API_KEY=sk-xxxx \
   -e ACCESS_CODE=Launch66 \
   --name Launch-chat \
-  SlyyydeBoost/Launch-chat
+  lobehub/Launch-chat
 ```
 
 > \[!TIP]
@@ -443,7 +443,7 @@ $ docker run -d -p 3210:3210 \
   -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
   -e ACCESS_CODE=Launch66 \
   --name Launch-chat \
-  SlyyydeBoost/Launch-chat
+  lobehub/Launch-chat
 ```
 
 > \[!NOTE]
@@ -477,10 +477,10 @@ This project provides some additional configuration items set with environment v
 
 | NPM                                      | Repository                                       | Description                                                                                             | Version                                       |
 | ---------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| [@SlyyydeBoost/ui][Launch-ui-link]       | [SlyyydeBoost/Launch-ui][Launch-ui-github]       | Open-source UI component library dedicated to building AIGC web applications.                           | [![][Launch-ui-shield]][Launch-ui-link]       |
-| [@SlyyydeBoost/icons][Launch-icons-link] | [SlyyydeBoost/Launch-icons][Launch-icons-github] | Popular AI / LLM Model Brand SVG Logo and Icon Collection.                                              | [![][Launch-icons-shield]][Launch-icons-link] |
-| [@SlyyydeBoost/tts][Launch-tts-link]     | [SlyyydeBoost/Launch-tts][Launch-tts-github]     | High-quality & reliable TTS/STT React Hooks library                                                     | [![][Launch-tts-shield]][Launch-tts-link]     |
-| [@SlyyydeBoost/lint][Launch-lint-link]   | [SlyyydeBoost/Launch-lint][Launch-lint-github]   | Configurations for ESlint, Stylelint, Commitlint, Prettier, Remark, and Semantic Release for LaunchHub. | [![][Launch-lint-shield]][Launch-lint-link]   |
+| [@lobehub/ui][Launch-ui-link]       | [lobehub/Launch-ui][Launch-ui-github]       | Open-source UI component library dedicated to building AIGC web applications.                           | [![][Launch-ui-shield]][Launch-ui-link]       |
+| [@lobehub/icons][Launch-icons-link] | [lobehub/Launch-icons][Launch-icons-github] | Popular AI / LLM Model Brand SVG Logo and Icon Collection.                                              | [![][Launch-icons-shield]][Launch-icons-link] |
+| [@lobehub/tts][Launch-tts-link]     | [lobehub/Launch-tts][Launch-tts-github]     | High-quality & reliable TTS/STT React Hooks library                                                     | [![][Launch-tts-shield]][Launch-tts-link]     |
+| [@lobehub/lint][Launch-lint-link]   | [lobehub/Launch-lint][Launch-lint-github]   | Configurations for ESlint, Stylelint, Commitlint, Prettier, Remark, and Semantic Release for LaunchHub. | [![][Launch-lint-shield]][Launch-lint-link]   |
 
 <div align="right">
 
@@ -490,20 +490,20 @@ This project provides some additional configuration items set with environment v
 
 ## 🧩 Plugins
 
-Plugins provide a means to extend the [Function Calling][docs-functionc-call] capabilities of SlyyydeBoost. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
+Plugins provide a means to extend the [Function Calling][docs-functionc-call] capabilities of lobehub. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide][docs-plugin-dev] in the Wiki.
 
-- [Launch-chat-plugins][Launch-chat-plugins]: This is the plugin index for SlyyydeBoost. It accesses index.json from this repository to display a list of available plugins for SlyyydeBoost to the user.
-- [chat-plugin-template][chat-plugin-template]: This is the plugin template for SlyyydeBoost plugin development.
-- [@SlyyydeBoost/chat-plugin-sdk][chat-plugin-sdk]: The SlyyydeBoost Plugin SDK assists you in creating exceptional chat plugins for Launch Chat.
-- [@SlyyydeBoost/chat-plugins-gateway][chat-plugins-gateway]: The SlyyydeBoost Plugins Gateway is a backend service that provides a gateway for SlyyydeBoost plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
+- [Launch-chat-plugins][Launch-chat-plugins]: This is the plugin index for lobehub. It accesses index.json from this repository to display a list of available plugins for lobehub to the user.
+- [chat-plugin-template][chat-plugin-template]: This is the plugin template for lobehub plugin development.
+- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The lobehub Plugin SDK assists you in creating exceptional chat plugins for Launch Chat.
+- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The lobehub Plugins Gateway is a backend service that provides a gateway for lobehub plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
 
 > \[!NOTE]
 >
 > The plugin system is currently undergoing major development. You can learn more in the following issues:
 >
-> - [x] [**Plugin Phase 1**](https://github.com/SlyyydeBoost/Launch-chat/issues/73): Implement separation of the plugin from the main body, split the plugin into an independent repository for maintenance, and realize dynamic loading of the plugin.
-> - [x] [**Plugin Phase 2**](https://github.com/SlyyydeBoost/Launch-chat/issues/97): The security and stability of the plugin's use, more accurately presenting abnormal states, the maintainability of the plugin architecture, and developer-friendly.
-> - [x] [**Plugin Phase 3**](https://github.com/SlyyydeBoost/Launch-chat/issues/149): Higher-level and more comprehensive customization capabilities, support for plugin authentication, and examples.
+> - [x] [**Plugin Phase 1**](https://github.com/lobehub/Launch-chat/issues/73): Implement separation of the plugin from the main body, split the plugin into an independent repository for maintenance, and realize dynamic loading of the plugin.
+> - [x] [**Plugin Phase 2**](https://github.com/lobehub/Launch-chat/issues/97): The security and stability of the plugin's use, more accurately presenting abnormal states, the maintainability of the plugin architecture, and developer-friendly.
+> - [x] [**Plugin Phase 3**](https://github.com/lobehub/Launch-chat/issues/149): Higher-level and more comprehensive customization capabilities, support for plugin authentication, and examples.
 
 <div align="right">
 
@@ -520,7 +520,7 @@ You can use GitHub Codespaces for online development:
 Or clone it for local development:
 
 ```fish
-$ git clone https://github.com/SlyyydeBoost/Launch-chat.git
+$ git clone https://github.com/lobehub/Launch-chat.git
 $ cd Launch-chat
 $ pnpm install
 $ pnpm dev
@@ -542,7 +542,7 @@ Contributions of all types are more than welcome; if you are interested in contr
 >
 > We are creating a technology-driven forum, fostering knowledge interaction and the exchange of ideas that may culminate in mutual inspiration and collaborative innovation.
 >
-> Help us make SlyyydeBoost better. Welcome to provide product design feedback, user experience discussions directly to us.
+> Help us make lobehub better. Welcome to provide product design feedback, user experience discussions directly to us.
 >
 > **Principal Maintainers:** [@arvinxx](https://github.com/arvinxx) [@canisminor1990](https://github.com/canisminor1990)
 
@@ -550,11 +550,11 @@ Contributions of all types are more than welcome; if you are interested in contr
 [![][submit-agents-shield]][submit-agents-link]
 [![][submit-plugin-shield]][submit-plugin-link]
 
-<a href="https://github.com/SlyyydeBoost/Launch-chat/graphs/contributors" target="_blank">
+<a href="https://github.com/lobehub/Launch-chat/graphs/contributors" target="_blank">
   <table>
     <tr>
       <th colspan="2">
-        <br><img src="https://contrib.rocks/image?repo=SlyyydeBoost/Launch-chat"><br><br>
+        <br><img src="https://contrib.rocks/image?repo=lobehub/Launch-chat"><br><br>
       </th>
     </tr>
     <tr>
@@ -592,10 +592,10 @@ Contributions of all types are more than welcome; if you are interested in contr
 
 Every bit counts and your one-time donation sparkles in our galaxy of support! You're a shooting star, making a swift and bright impact on our journey. Thank you for believing in us – your generosity guides us toward our mission, one brilliant flash at a time.
 
-<a href="https://opencollective.com/SlyyydeBoost" target="_blank">
+<a href="https://opencollective.com/lobehub" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SlyyydeBoost/.github/blob/main/static/sponsor-dark.png?raw=true">
-    <img  src="https://github.com/SlyyydeBoost/.github/blob/main/static/sponsor-light.png?raw=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lobehub/.github/blob/main/static/sponsor-dark.png?raw=true">
+    <img  src="https://github.com/lobehub/.github/blob/main/static/sponsor-light.png?raw=true">
   </picture>
 </a>
 
@@ -632,16 +632,16 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[chat-desktop]: https://raw.githubusercontent.com/SlyyydeBoost/Launch-chat/lighthouse/lighthouse/chat/desktop/pagespeed.svg
-[chat-desktop-report]: https://SlyyydeBoost.github.io/Launch-chat/lighthouse/chat/desktop/chat_preview_Launchhub_com_chat.html
-[chat-mobile]: https://raw.githubusercontent.com/SlyyydeBoost/Launch-chat/lighthouse/lighthouse/chat/mobile/pagespeed.svg
-[chat-mobile-report]: https://SlyyydeBoost.github.io/Launch-chat/lighthouse/chat/mobile/chat_preview_Launchhub_com_chat.html
-[chat-plugin-sdk]: https://github.com/SlyyydeBoost/chat-plugin-sdk
-[chat-plugin-template]: https://github.com/SlyyydeBoost/chat-plugin-template
-[chat-plugins-gateway]: https://github.com/SlyyydeBoost/chat-plugins-gateway
-[codecov-link]: https://codecov.io/gh/SlyyydeBoost/Launch-chat
-[codecov-shield]: https://img.shields.io/codecov/c/github/SlyyydeBoost/Launch-chat?labelColor=black&style=flat-square&logo=codecov&logoColor=white
-[codespaces-link]: https://codespaces.new/SlyyydeBoost/Launch-chat
+[chat-desktop]: https://raw.githubusercontent.com/lobehub/Launch-chat/lighthouse/lighthouse/chat/desktop/pagespeed.svg
+[chat-desktop-report]: https://lobehub.github.io/Launch-chat/lighthouse/chat/desktop/chat_preview_Launchhub_com_chat.html
+[chat-mobile]: https://raw.githubusercontent.com/lobehub/Launch-chat/lighthouse/lighthouse/chat/mobile/pagespeed.svg
+[chat-mobile-report]: https://lobehub.github.io/Launch-chat/lighthouse/chat/mobile/chat_preview_Launchhub_com_chat.html
+[chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
+[chat-plugin-template]: https://github.com/lobehub/chat-plugin-template
+[chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
+[codecov-link]: https://codecov.io/gh/lobehub/Launch-chat
+[codecov-shield]: https://img.shields.io/codecov/c/github/lobehub/Launch-chat?labelColor=black&style=flat-square&logo=codecov&logoColor=white
+[codespaces-link]: https://codespaces.new/lobehub/Launch-chat
 [codespaces-shield]: https://github.com/codespaces/badge.svg
 [deploy-button-image]: https://vercel.com/button
 [deploy-link]: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLaunchhub%2FLaunch-chat&env=OPENAI_API_KEY,ACCESS_CODE&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.%20%7C%20Access%20Code%20can%20protect%20your%20website&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=Launch-chat&repository-name=Launch-chat
@@ -652,93 +652,93 @@ This project is [MIT](./LICENSE) licensed.
 [discord-link]: https://discord.gg/AYFPHvv2jT
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
 [discord-shield-badge]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=for-the-badge
-[docker-pulls-link]: https://hub.docker.com/r/SlyyydeBoost/Launch-chat
-[docker-pulls-shield]: https://img.shields.io/docker/pulls/SlyyydeBoost/Launch-chat?color=45cc11&labelColor=black&style=flat-square
-[docker-release-link]: https://hub.docker.com/r/SlyyydeBoost/Launch-chat
-[docker-release-shield]: https://img.shields.io/docker/v/SlyyydeBoost/Launch-chat?color=369eff&label=docker&labelColor=black&logo=docker&logoColor=white&style=flat-square
-[docker-size-link]: https://hub.docker.com/r/SlyyydeBoost/Launch-chat
-[docker-size-shield]: https://img.shields.io/docker/image-size/SlyyydeBoost/Launch-chat?color=369eff&labelColor=black&style=flat-square
-[docs]: https://SlyyydeBoost.com/docs
-[docs-dev-guide]: https://github.com/SlyyydeBoost/Launch-chat/wiki/index
-[docs-docker]: https://SlyyydeBoost.com/docs/self-hosting/platform/docker
-[docs-env-var]: https://SlyyydeBoost.com/docs/self-hosting/environment-variables
-[docs-feat-agent]: https://SlyyydeBoost.com/docs/usage/features/agent-market
-[docs-feat-local]: https://SlyyydeBoost.com/docs/usage/features/local-llm
-[docs-feat-mobile]: https://SlyyydeBoost.com/docs/usage/features/mobile
-[docs-feat-plugin]: https://SlyyydeBoost.com/docs/usage/features/plugin-system
-[docs-feat-provider]: https://SlyyydeBoost.com/docs/usage/features/multi-ai-providers
-[docs-feat-pwa]: https://SlyyydeBoost.com/docs/usage/features/pwa
-[docs-feat-t2i]: https://SlyyydeBoost.com/docs/usage/features/text-to-image
-[docs-feat-theme]: https://SlyyydeBoost.com/docs/usage/features/theme
-[docs-feat-tts]: https://SlyyydeBoost.com/docs/usage/features/tts
-[docs-feat-vision]: https://SlyyydeBoost.com/docs/usage/features/vision
+[docker-pulls-link]: https://hub.docker.com/r/lobehub/Launch-chat
+[docker-pulls-shield]: https://img.shields.io/docker/pulls/lobehub/Launch-chat?color=45cc11&labelColor=black&style=flat-square
+[docker-release-link]: https://hub.docker.com/r/lobehub/Launch-chat
+[docker-release-shield]: https://img.shields.io/docker/v/lobehub/Launch-chat?color=369eff&label=docker&labelColor=black&logo=docker&logoColor=white&style=flat-square
+[docker-size-link]: https://hub.docker.com/r/lobehub/Launch-chat
+[docker-size-shield]: https://img.shields.io/docker/image-size/lobehub/Launch-chat?color=369eff&labelColor=black&style=flat-square
+[docs]: https://lobehub.com/docs
+[docs-dev-guide]: https://github.com/lobehub/Launch-chat/wiki/index
+[docs-docker]: https://lobehub.com/docs/self-hosting/platform/docker
+[docs-env-var]: https://lobehub.com/docs/self-hosting/environment-variables
+[docs-feat-agent]: https://lobehub.com/docs/usage/features/agent-market
+[docs-feat-local]: https://lobehub.com/docs/usage/features/local-llm
+[docs-feat-mobile]: https://lobehub.com/docs/usage/features/mobile
+[docs-feat-plugin]: https://lobehub.com/docs/usage/features/plugin-system
+[docs-feat-provider]: https://lobehub.com/docs/usage/features/multi-ai-providers
+[docs-feat-pwa]: https://lobehub.com/docs/usage/features/pwa
+[docs-feat-t2i]: https://lobehub.com/docs/usage/features/text-to-image
+[docs-feat-theme]: https://lobehub.com/docs/usage/features/theme
+[docs-feat-tts]: https://lobehub.com/docs/usage/features/tts
+[docs-feat-vision]: https://lobehub.com/docs/usage/features/vision
 [docs-functionc-call]: https://platform.openai.com/docs/guides/function-calling
-[docs-lighthouse]: https://github.com/SlyyydeBoost/Launch-chat/wiki/Lighthouse
-[docs-plugin-dev]: https://SlyyydeBoost.com/docs/usage/plugins/development
-[docs-self-hosting]: https://SlyyydeBoost.com/docs/self-hosting/start
-[docs-upstream-sync]: https://SlyyydeBoost.com/docs/self-hosting/advanced/upstream-sync
-[docs-usage-ollama]: https://SlyyydeBoost.com/docs/usage/providers/ollama
-[docs-usage-plugin]: https://SlyyydeBoost.com/docs/usage/plugins/basic
+[docs-lighthouse]: https://github.com/lobehub/Launch-chat/wiki/Lighthouse
+[docs-plugin-dev]: https://lobehub.com/docs/usage/plugins/development
+[docs-self-hosting]: https://lobehub.com/docs/self-hosting/start
+[docs-upstream-sync]: https://lobehub.com/docs/self-hosting/advanced/upstream-sync
+[docs-usage-ollama]: https://lobehub.com/docs/usage/providers/ollama
+[docs-usage-plugin]: https://lobehub.com/docs/usage/plugins/basic
 [fossa-license-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FLaunchhub%2FLaunch-chat
 [fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FLaunchhub%2FLaunch-chat.svg?type=large
-[github-action-release-link]: https://github.com/actions/workflows/SlyyydeBoost/Launch-chat/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/SlyyydeBoost/Launch-chat/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/actions/workflows/SlyyydeBoost/Launch-chat/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/SlyyydeBoost/Launch-chat/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-contributors-link]: https://github.com/SlyyydeBoost/Launch-chat/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/SlyyydeBoost/Launch-chat?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/SlyyydeBoost/Launch-chat/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/SlyyydeBoost/Launch-chat?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/SlyyydeBoost/Launch-chat/issues
-[github-issues-shield]: https://img.shields.io/github/issues/SlyyydeBoost/Launch-chat?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/SlyyydeBoost/Launch-chat/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/SlyyydeBoost/Launch-chat?color=white&labelColor=black&style=flat-square
-[github-project-link]: https://github.com/SlyyydeBoost/Launch-chat/projects
-[github-release-link]: https://github.com/SlyyydeBoost/Launch-chat/releases
-[github-release-shield]: https://img.shields.io/github/v/release/SlyyydeBoost/Launch-chat?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/SlyyydeBoost/Launch-chat/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/SlyyydeBoost/Launch-chat?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/SlyyydeBoost/Launch-chat/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/SlyyydeBoost/Launch-chat?color=ffcb47&labelColor=black&style=flat-square
+[github-action-release-link]: https://github.com/actions/workflows/lobehub/Launch-chat/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/Launch-chat/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/actions/workflows/lobehub/Launch-chat/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/Launch-chat/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-contributors-link]: https://github.com/lobehub/Launch-chat/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/Launch-chat?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/lobehub/Launch-chat/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/lobehub/Launch-chat?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/lobehub/Launch-chat/issues
+[github-issues-shield]: https://img.shields.io/github/issues/lobehub/Launch-chat?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/lobehub/Launch-chat/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/lobehub/Launch-chat?color=white&labelColor=black&style=flat-square
+[github-project-link]: https://github.com/lobehub/Launch-chat/projects
+[github-release-link]: https://github.com/lobehub/Launch-chat/releases
+[github-release-shield]: https://img.shields.io/github/v/release/lobehub/Launch-chat?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/lobehub/Launch-chat/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/Launch-chat?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/lobehub/Launch-chat/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/lobehub/Launch-chat?color=ffcb47&labelColor=black&style=flat-square
 [github-trending-shield]: https://trendshift.io/api/badge/repositories/2256
 [github-trending-url]: https://trendshift.io/repositories/2256
-[image-banner]: https://github.com/SlyyydeBoost/Launch-chat/assets/28616219/9f155dff-4737-429f-9cad-a70a1a860c5f
+[image-banner]: https://github.com/lobehub/Launch-chat/assets/28616219/9f155dff-4737-429f-9cad-a70a1a860c5f
 [image-feat-agent]: https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/268670869-f1ffbf66-42b6-42cf-a937-9ce1f8328514.png
-[image-feat-local]: https://github.com/SlyyydeBoost/Launch-chat/assets/28616219/ca9a21bc-ea6c-4c90-bf4a-fa53b4fb2b5c
+[image-feat-local]: https://github.com/lobehub/Launch-chat/assets/28616219/ca9a21bc-ea6c-4c90-bf4a-fa53b4fb2b5c
 [image-feat-mobile]: https://gw.alipayobjects.com/zos/kitchen/R441AuFS4W/mobile.webp
 [image-feat-plugin]: https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/268670883-33c43a5c-a512-467e-855c-fa299548cce5.png
-[image-feat-privoder]: https://github.com/SlyyydeBoost/Launch-chat/assets/28616219/b164bc54-8ba2-4c1e-b2f2-f4d7f7e7a551
+[image-feat-privoder]: https://github.com/lobehub/Launch-chat/assets/28616219/b164bc54-8ba2-4c1e-b2f2-f4d7f7e7a551
 [image-feat-pwa]: https://gw.alipayobjects.com/zos/kitchen/69x6bllkX3/pwa.webp
 [image-feat-t2i]: https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/297746445-0ff762b9-aa08-4337-afb7-12f932b6efbb.png
 [image-feat-theme]: https://gw.alipayobjects.com/zos/kitchen/pvus1lo%26Z7/darkmode.webp
 [image-feat-tts]: https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/284072124-c9853d8d-f1b5-44a8-a305-45ebc0f6d19a.png
 [image-feat-vision]: https://github-production-user-asset-6210df.s3.amazonaws.com/17870709/284072129-382bdf30-e3d6-4411-b5a0-249710b8ba08.png
-[image-overview]: https://github.com/SlyyydeBoost/Launch-chat/assets/28616219/8b04c3c9-3d71-4fb4-bd9b-a4f415c5876d
-[image-star]: https://github.com/SlyyydeBoost/Launch-chat/assets/17870709/cb06b748-513f-47c2-8740-d876858d7855
-[issues-link]: https://img.shields.io/github/issues/SlyyydeBoost/Launch-chat.svg?style=flat
-[Launch-chat-plugins]: https://github.com/SlyyydeBoost/Launch-chat-plugins
-[Launch-commit]: https://github.com/SlyyydeBoost/Launch-commit/tree/master/packages/Launch-commit
-[Launch-i18n]: https://github.com/SlyyydeBoost/Launch-commit/tree/master/packages/Launch-i18n
-[Launch-icons-github]: https://github.com/SlyyydeBoost/Launch-icons
-[Launch-icons-link]: https://www.npmjs.com/package/@SlyyydeBoost/icons
-[Launch-icons-shield]: https://img.shields.io/npm/v/@SlyyydeBoost/icons?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[Launch-lint-github]: https://github.com/SlyyydeBoost/Launch-lint
-[Launch-lint-link]: https://www.npmjs.com/package/@SlyyydeBoost/lint
-[Launch-lint-shield]: https://img.shields.io/npm/v/@SlyyydeBoost/lint?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[Launch-midjourney-webui]: https://github.com/SlyyydeBoost/Launch-midjourney-webui
-[Launch-theme]: https://github.com/SlyyydeBoost/sd-webui-Launch-theme
-[Launch-tts-github]: https://github.com/SlyyydeBoost/Launch-tts
-[Launch-tts-link]: https://www.npmjs.com/package/@SlyyydeBoost/tts
-[Launch-tts-shield]: https://img.shields.io/npm/v/@SlyyydeBoost/tts?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[Launch-ui-github]: https://github.com/SlyyydeBoost/Launch-ui
-[Launch-ui-link]: https://www.npmjs.com/package/@SlyyydeBoost/ui
-[Launch-ui-shield]: https://img.shields.io/npm/v/@SlyyydeBoost/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/SlyyydeBoost/Launch-chat/pulls
+[image-overview]: https://github.com/lobehub/Launch-chat/assets/28616219/8b04c3c9-3d71-4fb4-bd9b-a4f415c5876d
+[image-star]: https://github.com/lobehub/Launch-chat/assets/17870709/cb06b748-513f-47c2-8740-d876858d7855
+[issues-link]: https://img.shields.io/github/issues/lobehub/Launch-chat.svg?style=flat
+[Launch-chat-plugins]: https://github.com/lobehub/Launch-chat-plugins
+[Launch-commit]: https://github.com/lobehub/Launch-commit/tree/master/packages/Launch-commit
+[Launch-i18n]: https://github.com/lobehub/Launch-commit/tree/master/packages/Launch-i18n
+[Launch-icons-github]: https://github.com/lobehub/Launch-icons
+[Launch-icons-link]: https://www.npmjs.com/package/@lobehub/icons
+[Launch-icons-shield]: https://img.shields.io/npm/v/@lobehub/icons?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[Launch-lint-github]: https://github.com/lobehub/Launch-lint
+[Launch-lint-link]: https://www.npmjs.com/package/@lobehub/lint
+[Launch-lint-shield]: https://img.shields.io/npm/v/@lobehub/lint?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[Launch-midjourney-webui]: https://github.com/lobehub/Launch-midjourney-webui
+[Launch-theme]: https://github.com/lobehub/sd-webui-Launch-theme
+[Launch-tts-github]: https://github.com/lobehub/Launch-tts
+[Launch-tts-link]: https://www.npmjs.com/package/@lobehub/tts
+[Launch-tts-shield]: https://img.shields.io/npm/v/@lobehub/tts?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[Launch-ui-github]: https://github.com/lobehub/Launch-ui
+[Launch-ui-link]: https://www.npmjs.com/package/@lobehub/ui
+[Launch-ui-shield]: https://img.shields.io/npm/v/@lobehub/ui?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[pr-welcome-link]: https://github.com/lobehub/Launch-chat/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
-[profile-link]: https://github.com/SlyyydeBoost
+[profile-link]: https://github.com/lobehub
 [share-linkedin-link]: https://linkedin.com/feed
 [share-linkedin-shield]: https://img.shields.io/badge/-share%20on%20linkedin-black?labelColor=black&logo=linkedin&logoColor=white&style=flat-square
-[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LaunchChat%20-%20An%20open-source,%20extensible%20(Function%20Calling),%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT/LLM%20web%20application.%20https://github.com/SlyyydeBoost/Launch-chat%20#chatbot%20#chatGPT%20#openAI
+[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LaunchChat%20-%20An%20open-source,%20extensible%20(Function%20Calling),%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT/LLM%20web%20application.%20https://github.com/lobehub/Launch-chat%20#chatbot%20#chatGPT%20#openAI
 [share-mastodon-shield]: https://img.shields.io/badge/-share%20on%20mastodon-black?labelColor=black&logo=mastodon&logoColor=white&style=flat-square
 [share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LaunchChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2FLaunchhub%2FLaunch-chat
 [share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white&style=flat-square
@@ -750,12 +750,12 @@ This project is [MIT](./LICENSE) licensed.
 [share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
 [share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LaunchChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.&url=https%3A%2F%2Fgithub.com%2FLaunchhub%2FLaunch-chat
 [share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
-[sponsor-link]: https://opencollective.com/SlyyydeBoost 'Become ❤️ LaunchHub Sponsor'
+[sponsor-link]: https://opencollective.com/lobehub 'Become ❤️ LaunchHub Sponsor'
 [sponsor-shield]: https://img.shields.io/badge/-Sponsor%20LaunchHub-f04f88?logo=opencollective&logoColor=white&style=flat-square
-[submit-agents-link]: https://github.com/SlyyydeBoost/Launch-chat-agents
+[submit-agents-link]: https://github.com/lobehub/Launch-chat-agents
 [submit-agents-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
-[submit-plugin-link]: https://github.com/SlyyydeBoost/Launch-chat-plugins
+[submit-plugin-link]: https://github.com/lobehub/Launch-chat-plugins
 [submit-plugin-shield]: https://img.shields.io/badge/🧩/🏪_submit_plugin-%E2%86%92-95f3d9?labelColor=black&style=for-the-badge
-[vercel-link]: https://chat-preview.SlyyydeBoost.com
-[vercel-shield]: https://img.shields.io/website?down_message=offline&label=vercel&labelColor=black&logo=vercel&style=flat-square&up_message=online&url=https%3A%2F%2Fchat-preview.SlyyydeBoost.com
-[vercel-shield-badge]: https://img.shields.io/website?down_message=offline&label=try%20Launchchat&labelColor=black&logo=vercel&style=for-the-badge&up_message=online&url=https%3A%2F%2Fchat-preview.SlyyydeBoost.com
+[vercel-link]: https://chat-preview.lobehub.com
+[vercel-shield]: https://img.shields.io/website?down_message=offline&label=vercel&labelColor=black&logo=vercel&style=flat-square&up_message=online&url=https%3A%2F%2Fchat-preview.lobehub.com
+[vercel-shield-badge]: https://img.shields.io/website?down_message=offline&label=try%20Launchchat&labelColor=black&logo=vercel&style=for-the-badge&up_message=online&url=https%3A%2F%2Fchat-preview.lobehub.com
