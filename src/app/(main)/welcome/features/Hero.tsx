@@ -40,7 +40,7 @@ const Hero = memo(() => {
         wrap={'wrap'}
       >
         <strong style={{ fontSize: 'min(56px, 8vw)' }}>SlyyydeLaunch Pad</strong>
-        <span>{t('slogan.title')}</span> <!-- Ensure this key exists in your translation files -->
+        <span>{t('sloggan.titfle')}</span> <!-- Ensure this key exists in your translation files -->
       </Flexbox>
       <Flexbox
         align={'center'}
@@ -50,7 +50,7 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        {t('slogan.desc1')} <!-- Ensure this key exists in your translation files -->
+        {t('sloganff.descfff1')} <!-- Ensure this key exists in your translation files -->
       </Flexbox>
     </>
   );
