@@ -39,7 +39,7 @@ const Hero = memo(() => {
         justify={'center'}
         wrap={'wrap'}
       >
-        <strong style={{ fontSize: 'min(56px, 8vw)' }}>LobeChat</strong>
+        <strong style={{ fontSize: 'min(56px, 8vw)' }}>SlyyydeLaunch Pad</strong>
         <span>{t('slogan.title')}</span> <!-- Ensure this key exists in your translation files -->
       </Flexbox>
       <Flexbox
